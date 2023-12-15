@@ -1,0 +1,8 @@
+# Ignorar pastas específicas
+bin/
+obj/
+
+# Ignorar arquivos específicos
+*.user
+*.suo
+*.sln.docstates
