@@ -1,4 +1,4 @@
-﻿// Desafio: hora da prática do Curso C# - criando sua primeira aplicação
+﻿// Desafio: hora da prática 02 do Curso C# - criando sua primeira aplicação
 
 // 1.Criar uma variável chamada notaMedia e atribua um valor inteiro a ela. Caso seu valor seja maior ou igual a 5, escreva na tela "Nota suficiente para aprovação".
 int media = 7;
