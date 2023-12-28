@@ -1,7 +1,7 @@
 // 2.Criar um construtor para a classe Conta, que inicialize todas suas propriedades Titular, Agencia, NumeroDaConta, Saldo, Limite
 namespace Exercicios_09.Models;
 
-class Conta
+public class Conta
 {
     public Titular Titular {get; set;}
     public int Agencia {get; set;}
@@ -11,7 +11,7 @@ class Conta
 
     public string Informacoes => $"Conta nº {this.NumeroDaConta}, Agência {this.Agencia}, Titular: {this.Titular.Nome} - Saldo: {this.Saldo}";
 
-    public Conta(Titular titular, Agencia agencia, NumeroDaConta numeroDaConta, Limite limite)
+    public Conta(Titular titular, int agencia, int numeroDaConta, double limite)
     {
         this.Titular = titular;
         this.Agencia = agencia;
