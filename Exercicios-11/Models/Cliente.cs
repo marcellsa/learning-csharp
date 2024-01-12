@@ -1,3 +1,4 @@
+// 2.2 Modelar o funcionamento de uma oficina automobilistica.
 namespace Exercicios_11.Automobilistica.Models;
 
 public class Cliente
